@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'NS-r';
+    src: url('../img/NeoSansPro-Regular.ttf');
+}
+@font-face {
+    font-family: 'NS';
+    src: url('../img/NeoSansPro-Medium.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    height: 12vh;
+    display: flex;
+    border-top: 1px solid transparent;
+    background: rgba(14, 13, 12, 1);
+}
+.logo{
+    height: 2.7vh;
+    width: 8vw;
+    background-size: contain;
+    background-image: url("../img/GISYKT.svg");
+    background-repeat: no-repeat;
+    margin-top: 4.5vh;
+    margin-left: 23vw;
+}
+.vline{
+    background: #9f9e9e;
+    height: 4vh;
+    width: 2px;
+    margin-top: 3.9vh;
+}
+.h5 {
+    display:block;
+    padding:0 10px;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+    color: #9f9e9e;
+    margin-left: 1vw;
+}
+.strel{
+    display: flex;
+    font-family: NS-r;
+    color: #9f9e9e;
+    margin-top: 1.85vh;
+}
+.h5:hover {
+    color: #FFFFFF;
+    font-family: NS-r;
+}
+
+.ling{
+    color: #9f9e9e;
+    font-family: NS-r;
+    text-decoration: none;
+    margin-top: 4.4vh;
+    margin-left: auto;
+    margin-right: 9vw;
+    font-size:20px;
+}
+.ling:hover {
+    color: #FFFFFF;
+}
+.foot{
+    height: 9vh;
+    width: 100%;
+    background: rgba(14, 13, 12, 1);
+    background-size: contain;
+    background-image: url("../img/Group 47233.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 100vh;
+}

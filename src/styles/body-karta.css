@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'NS-r';
+    src: url('../img/NeoSansPro-Regular.ttf');
+}
+.body{
+    height: 88vh;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+}
+.spisok{
+    background: #FFFFFF;
+    height: 88vh;
+    width: 23vw;
+    text-align: center;
+}
+.kart{
+    height: 88vh;
+    width: 77vw;
+}
+.kins{
+    font-family: NS-r;
+    font-size: 18px;
+    color: #000000;
+}
+
+.tripol{
+    position: absolute;
+    height: 1.9vh;
+    width: 2vw;
+    background: none;
+    background-size: contain;
+    background-image: url("../img/Group 3.svg");
+    background-repeat: no-repeat;
+    left: 2vw;
+    top: 5vh;
+    border: none;
+    outline: none;
+}
